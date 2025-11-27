@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall Of Autism</title>
+    <link rel="icon" href="assets/snduBTy.png" type="image/png" sizes="100x100">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="enter-screen" id="enterScreen">
+        <div class="enter-content">
+            <span class="enter-text" id="enterBtn">Click To Enter HOA</span>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="song.ogg" type="audio/ogg">
+    </audio>
+
+    <div class="container" id="mainContainer">
+        <div class="profile-section">
+            <div class="profile-picture">
+                <img src="assets/pfp.jpg" alt="profile picture" class="main-pfp">
+            </div>
+            <h1 class="name">Hall Of Autism</h1>
+        </div>
+
+        <div class="quote-section">
+            <p class="quote-text">Welcome To HOA Roster. Anyone not on this roster is a larp</p>
+        </div>
+
+        <div class="button-container">
+            <button class="action-btn" id="rosterBtn">roster</button>
+            <button class="action-btn" id="socialsBtn">socials</button>
+        </div>
+
+        <div class="social-icons-container" id="socialIcons">
+            <button class="social-icon-btn discord-icon-btn" id="discordBtn">
+                <img src="assets/discord.svg" alt="discord" class="social-icon-img">
+            </button>
+            <button class="social-icon-btn telegram-icon-btn" id="telegramBtn">
+                <img src="assets/telegram.svg" alt="telegram" class="social-icon-img">
+            </button>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="rosterPopup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2>roster</h2>
+            </div>
+            
+            <!-- OWNERS -->
+            <div class="roster-section">
+                <h3 class="section-title">Founders</h3>
+                <div class="roster-list">
+                    <div class="member-card">
+                        <img src="assets/0xide.jpg" alt="0xide" class="member-avatar">
+                        <div class="member-info">
+                            <h4>0xide</h4>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <img src="assets/necro.jpg" alt="Necro" class="member-avatar">
+                        <div class="member-info">
+                            <h4>Necro</h4>
+                            <p>Founder</p>
+
+</div>
+                    </div>
+                    <div class="member-card">
+                        <img src="assets/knox.jpg" alt="Knox" class="member-avatar">
+                        <div class="member-info">
+                            <h4>Knox</h4>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                   
+            <!-- Developer -->
+            <div class="roster-section">
+                <h3 class="section-title">Developer</h3>
+                <div class="roster-list">
+                    <div class="member-card">
+                        <img src="assets/mercenary.jpg" alt="demise" class="member-avatar">
+                        <div class="member-info">
+                            <h4>Mercenary</h4>
+                            <p>Dev</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEMBERS -->
+            <div class="roster-section">
+                <h3 class="section-title">members</h3>
+                <div class="roster-list">
+                    <div class="member-card">
+                        <img src="assets/critical.jpg" alt="Critical" class="member-avatar">
+                        <div class="member-info">
+                            <h4>Critical</h4>
+                            <p>Member</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="close-btn" id="closeRoster">close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
